@@ -1,0 +1,27 @@
+{
+  "name": "micro-blogging",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "ex-1": "node ./cmd/exemplo_1.js",
+    "ex-2": "node ./cmd/exemplo_2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "micro-blogging",
+    "web",
+    "back-end"
+  ],
+  "author": "Vitor B. Hilário",
+  "license": "ISC",
+  "description": "Micro-blogging | Projeto 1",
+  "dependencies": {
+    "mongodb": "^6.20.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "eslint": "^9.36.0",
+    "globals": "^16.4.0"
+  }
+}
