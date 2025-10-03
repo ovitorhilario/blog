@@ -18,10 +18,5 @@
   "description": "Micro-blogging | Projeto 1",
   "dependencies": {
     "mongodb": "^6.20.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.36.0",
-    "eslint": "^9.36.0",
-    "globals": "^16.4.0"
   }
 }
