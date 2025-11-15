@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 class Logger {
 	constructor(logFilePath = null) {
-		this.logFilePath = logFilePath || path.join(__dirname, '..', 'logs', 'errors.log');
+		this.logFilePath = logFilePath || path.join(__dirname, 'logs', 'errors.log');
 		this.ensureLogDirectory();
 	}
 

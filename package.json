@@ -4,9 +4,8 @@
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
-    "ex-1": "node ./cmd/exemplo_1.js",
-    "ex-2": "node ./cmd/exemplo_2.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ex-1": "node ./exemplo_1.js",
+    "ex-2": "node ./exemplo_2.js"
   },
   "keywords": [
     "micro-blogging",
@@ -17,6 +16,7 @@
   "license": "ISC",
   "description": "Micro-blogging | Projeto 1",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "mongodb": "^6.20.0"
   }
 }

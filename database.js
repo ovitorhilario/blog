@@ -1,7 +1,7 @@
 import { MongoClient } from 'mongodb';
 import { databaseConfig } from './config.js';
-import { DatabaseError } from '../../pkg/errors.js';
-import Logger from '../../pkg/logger.js';
+import { DatabaseError } from './errors.js';
+import Logger from './logger.js';
 
 class Database {
 	constructor() {

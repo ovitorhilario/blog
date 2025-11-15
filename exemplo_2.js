@@ -3,10 +3,10 @@
  * Demonstra como o sistema lida com situações de erro
  */
 
-import Database from '../internal/db/database.js';
-import User from '../internal/entity/user.js';
-import Post from '../internal/entity/post.js';
-import Comment from '../internal/entity/comment.js';
+import Database from './database.js';
+import User from './user.js';
+import Post from './post.js';
+import Comment from './comment.js';
 
 async function demonstrateErrorHandling() {
 	try {

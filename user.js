@@ -1,14 +1,14 @@
 import { ObjectId } from 'mongodb';
-import Database from '../db/database.js';
-import Validator from '../../pkg/validator.js';
-import Logger from '../../pkg/logger.js';
+import Database from './database.js';
+import Validator from './validator.js';
+import Logger from './logger.js';
 
 import { 
   ValidationError, 
   DatabaseError, 
   NotFoundError, 
   DuplicateError 
-} from '../../pkg/errors.js';
+} from './errors.js';
 
 class User {
   constructor() {
